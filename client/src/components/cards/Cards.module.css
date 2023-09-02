@@ -1,0 +1,16 @@
+
+  .Cards {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./portal.gif);
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    gap: 20px;
+  }
+

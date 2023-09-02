@@ -1,0 +1,74 @@
+
+.container{
+  height: 40vh;
+  width: 20vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #09efff73;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-color: rgb(9, 199, 247);
+  padding: 0 20px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 5px rgb(0, 255, 255);
+  margin-top: 32vh
+}
+
+
+.email{
+    color: rgb(151, 248, 255);
+    position: absolute;
+    top: 35vh;
+    right: 43vw
+}
+
+.emailIn{
+  width: 125px;
+  color: rgb(89, 217, 226);
+  background-color: (151, 248, 255);
+  border: 1px solid rgb(151, 248, 255);
+  box-shadow: none;
+  margin-left: 10px;
+  box-shadow: 0 0 10px 5px rgb(0, 255, 255);
+}
+
+.password{
+  color: rgb(151, 248, 255);
+  position: absolute;
+  top: 45vh;
+  right: 43vw;
+}
+
+.passwordIn{
+    width: 125px;
+    color: rgb(89, 217, 226);
+    background-color: (151, 248, 255);
+    border: 1px solid rgb(151, 248, 255);
+    box-shadow: none;
+    margin-left: 10px;
+    box-shadow: 0 0 10px 5px rgb(0, 255, 255);
+}
+
+.btn {
+    width: 10vw;
+    height: 5vh;
+    background-color: rgb(9, 199, 247);
+    box-shadow: 0 0 10px 5px rgb(0, 255, 255);
+    color: rgb(151, 248, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    transition: color 0.3s;
+    transition: background-color 0.3s;
+    position: absolute;
+    right: 45vw;
+  }
+
+  .btn:hover{
+    background-color: rgb(250, 109, 109);
+    box-shadow: 0 0 10px 5px rgb(252, 172, 172);
+    color: rgb(252, 172, 172);
+
+  }

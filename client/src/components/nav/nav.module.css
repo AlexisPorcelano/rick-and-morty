@@ -1,0 +1,130 @@
+.Nav {
+  width: 90vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #09efff73;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: none;
+  border-color: rgb(9, 199, 247);
+  padding: 0 20px;
+  border-radius: 1rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 0 0 10px 5px rgb(0, 255, 255);
+  position: relative;
+  background-image: url(./fondo2.png);
+  background-size: 200px;
+}
+
+.home {
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px 12px;
+  font-weight: bold;
+  color: rgb(151, 248, 255);
+  background-color: rgb(9, 199, 247);
+  border-radius: 4px;
+  box-shadow: 0 0 10px 5px rgb(0, 255, 255);
+  transition: box-shadow 0.3s;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+}
+.about {
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px 12px;
+  font-weight: bold;
+  color: rgb(151, 248, 255);
+  background-color: rgb(9, 199, 247);
+  border-radius: 4px;
+  box-shadow: 0 0 10px 5px rgb(0, 255, 255);
+  transition: box-shadow 0.3s;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.logout {
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px 12px;
+  font-weight: bold;
+  color: rgb(151, 248, 255);
+  background-color: rgb(9, 199, 247);
+  border-radius: 4px;
+  box-shadow: 0 0 10px 5px rgb(0, 255, 255);
+  transition: box-shadow 0.3s;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.home:hover{
+  box-shadow: 0 0 10px 5px rgb(154, 255, 255);
+  color: rgb(154, 255, 255);
+}
+.about:hover{
+  box-shadow: 0 0 10px 5px rgb(154, 255, 255);
+  color: rgb(154, 255, 255);
+}
+
+.logout:hover{
+  box-shadow: 0 0 10px 5px rgb(154, 255, 255);
+  color: rgb(154, 255, 255);
+}
+
+.home {
+  left: 10px;
+}
+
+.about {
+  right: 10px;
+}
+
+.logout {
+  right: 100px;
+}
+
+.favs{
+  left: 100px
+}
+
+.favs {
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px 12px;
+  font-weight: bold;
+  color: rgb(151, 248, 255);
+  background-color: rgb(9, 199, 247);
+  border-radius: 4px;
+  box-shadow: 0 0 10px 5px rgb(0, 255, 255);
+  transition: box-shadow 0.3s;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.favs:hover{
+  box-shadow: 0 0 10px 5px rgb(154, 255, 255);
+  color: rgb(154, 255, 255);
+}
+
+.selected {
+  background-color: rgb(250, 109, 109);
+  box-shadow: 0 0 5px 2.5px rgb(252, 172, 172);
+  color: rgb(252, 172, 172);
+}
+
+.selected:hover{
+
+  box-shadow: 0 0 10px 5px rgb(252, 172, 172);
+  color: rgb(241, 212, 212)
+
+}

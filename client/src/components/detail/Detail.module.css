@@ -1,0 +1,47 @@
+.container{
+  background-image: url(./portal.gif);
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.detail {
+  width: 80vw;
+  height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-image: url(./fondo2.png);
+    background-size: 200px;
+    background-color: #09efff73;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px 5px rgb(0, 255, 255);
+    border-color: rgb(9, 199, 247);
+    border-radius: 8px;
+  }
+
+  .image{
+    height: 70vh;
+    border-radius: 1rem;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 5px 2.5px rgb(0, 255, 255);
+    border-color: rgb(9, 199, 247);
+    position: absolute;
+    left: 20vh;
+    top: 18vh;
+  }
+
+  .info{
+    color: rgb(151, 248, 255);
+    left: 60vw;
+    position: absolute;
+    top: 22.5vh;
+
+  }
+
+  .item{
+    margin-top: 40px;
+    background-color: rgb(9, 199, 247);
+    box-shadow: 0 0 15px 5px rgb(0, 255, 255);
+  }

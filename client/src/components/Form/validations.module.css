@@ -1,0 +1,12 @@
+.error{
+    width: 200px;
+    background-color: rgba(250, 109, 109, 0.774);
+    box-shadow: 0 0 10px 5px rgb(252, 172, 172);
+    color: rgb(252, 172, 172);
+    padding: 0 20px;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 30vh;
+    right: 40vw
+
+}
